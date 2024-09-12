@@ -1,0 +1,42 @@
+To run the Python code in VS Code, follow these steps:
+
+Steps to Run Python Code in VS Code:
+
+1. Install VS Code:
+
+If you don’t already have Visual Studio Code installed, download it from here.
+
+2. Install Python:
+
+If you don't have Python installed, download and install Python from here.
+Make sure to check the option to Add Python to PATH during installation.
+
+3. Install Python Extension for VS Code:
+
+Open VS Code.
+Go to the Extensions view by clicking on the Extensions icon (or press Ctrl + Shift + X).
+Search for Python and install the official extension from Microsoft.
+
+4. Open or Create a Python File:
+
+Open VS Code, and go to File > Open Folder to open the folder where your project is saved.
+Inside the folder, create a new file with a .py extension (e.g., project_analysis.py).
+Copy and paste the full Python code I provided into this file.
+
+5. Install Required Python Libraries:
+
+Open the terminal in VS Code by selecting Terminal > New Terminal (or press Ctrl + Shift + ).
+Run the following commands to install the necessary libraries (if not already installed):
+    `pip install pandas seaborn matplotlib scipy`
+
+6. Run the Python Code:
+
+In VS Code, open your Python file (project_analysis.py).
+Press F5 or right-click inside the editor and select Run Python File in Terminal.
+Alternatively, you can run the file directly in the terminal:
+    `python project_analysis.py`
+
+7. View the Output:
+
+The output of the code (descriptive statistics, correlation, t-test results) will be printed in the Terminal.
+Visualizations (box plots, histograms) will pop up in separate windows.
